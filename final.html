@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Final Project Winter 2021</title>
+
+    <!-- Your CSS Styles here ============================-->
+
+    <link rel="stylesheet" href="final.css">
+
+</head>
+
+<body>
+    <!-- Your web page content here ===============================-->
+    <div class=header>
+        <h1>Final Project Winter 2021 by Dev Parmar and Raj Patel</h1>
+    </div>
+    <!-- product catalog -->
+    <div class=container>
+        <div class="catalog">
+            <div id="catalog">
+                The catalog shall be shown here if all goes well
+            </div>
+        </div>
+
+        <!-- shopping cart -->
+        <div class="cart">
+            <h2 style="text-align: center;">Your Shopping Cart</h2>
+            <div id="cart">The shopping cart shall be shown here if all goes well</div><br>
+            <div id="btn">
+                <button id='bt2' type="button" style="margin: auto" onclick="displayCart()">Recalculate</button>
+            </div><br><br><br>
+            SubTotal = $<span id="subtotal"></span><br><br>
+            GST = $<span id="GST"></span><br><br>
+            PST = $<span id="PST"></span><br><br>
+            <b style="font-size: 25px;">Total = $<span id="total"></span></b><br>
+            <br>
+
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <!-- Javascript Code ==================================-->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="global_tools.js"></script>
+
+    <script src="final.js"></script>
+
+</body>
+
+</html>

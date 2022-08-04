@@ -1,0 +1,160 @@
+/* PRODUCT CATALOG */
+
+        /* product div */
+        .product {
+            width: 180px;
+            height: 400px;
+            overflow: auto;
+            border: 1px solid black;
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+        }
+
+        .product:hover {
+            border-color: crimson;
+        }
+
+        /* product image */
+        .product img {
+            width: 100%;
+        }
+
+        /* product name */
+        .product .name {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* product description */
+        .product .description {
+            margin: 0;
+        }
+
+        /* product price */
+        .product .price {
+            font-size: 24px;
+            color: crimson;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* BUY button image */
+        .button_grey {
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(78, 82, 78);
+            position: absolute;
+            bottom: 10px;
+            left: 25%;
+        }
+
+        .button_grey:hover {
+            background-color: crimson;
+            border-color: crimson;
+            color: #fffdd0;
+        }
+
+        /*Shopping cart area*/
+        .cart {
+            background-color: #f8f5bf;
+
+
+        }
+
+        #btn {
+            text-align: center;
+        }
+
+        /*Buy button*/
+        #bt1 {
+            width: 150px;
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+            background-color: rgb(78, 82, 78);
+            border-style: none;
+
+
+        }
+
+        #bt1:hover {
+            background-color: crimson;
+            border-color: crimson;
+            color: white;
+        }
+
+        /*Recalculate button*/
+        #bt2 {
+            padding: 10px 20px;
+            background-color: crimson;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            font-weight: bolder;
+            border-style: none;
+            border-radius: 15px;
+
+        }
+
+        #bt2:hover {
+            background-color: darkblue;
+            color: white;
+
+        }
+
+        /*Name of team members*/
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 90px;
+            width: 100%;
+            background-color: crimson;
+            color: #f8f5bf;
+            z-index: 999;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 90px;
+        }
+
+        /*catalog where the products will be shown*/
+        .catalog {
+
+            width: 65%;
+            float: left;
+
+
+        }
+
+        /*shopping cart*/
+        .cart {
+            width: 35%;
+            position: fixed;
+            right: 0;
+            height: 100%;
+            padding: 25px;
+            top: 50px;
+            overflow: auto;
+
+        }
+
+        #message {
+            color: blue;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        /*shopping cart table*/
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px;
+
+        }
